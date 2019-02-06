@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cast_expanded_controller_text_color"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="500dp"
+        android:layout_height="75dp"
+        android:background="#B71C1C"
+        android:gravity="center|start"
+        android:text="     other"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/editText47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter your paytm number"
+            android:inputType="number"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="*We connect with you ..you can order your mobile recharge ya order of swiggy"
+        android:textSize="16sp" />
+
+</LinearLayout>

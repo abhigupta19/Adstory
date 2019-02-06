@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/ana"
+
+        android:title="    Activity"/>
+
+    <item  android:id="@+id/acc"
+
+        android:title="    Account" />
+    <item  android:id="@+id/fee"
+        android:title="    Feedback"/>
+    <item  android:id="@+id/con"
+
+        android:title="    Contact"/>
+
+
+
+</menu>

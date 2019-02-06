@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".save">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Views on"
+        android:textColor="@color/cast_expanded_controller_text_color"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignEnd="@+id/rado"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/cast_expanded_controller_text_color"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/cast_expanded_controller_text_color"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cast_expanded_controller_text_color"
+        android:ems="10"
+        android:textColor="@color/cast_expanded_controller_text_color"
+        android:textColorHint="@color/cast_expanded_controller_text_color"
+        android:textColorLink="@color/cast_expanded_controller_text_color" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-165dp"
+        android:layout_marginBottom="187dp"
+        android:text="(If you forget the poster code then go to screen shot and see on the top  of poster)"
+        android:textColor="@color/cast_expanded_controller_text_color" />
+
+    <Button
+        android:id="@+id/buttonn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="463dp"
+        android:background="@drawable/shapi"
+        android:shadowColor="#ffffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:text="NEXT"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/buttonn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-260dp"
+        android:layout_marginTop="254dp"
+        android:text="Enter the poster code"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="63dp"
+        android:backgroundTintMode="add" />
+
+</RelativeLayout>

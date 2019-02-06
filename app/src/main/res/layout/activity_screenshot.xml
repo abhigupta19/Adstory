@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screenshot">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitStart" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:hint="What is code of poster"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/place_autocomplete_search_hint"
+        android:textColorLink="#B71C1C" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="(If you forget then go to screen shot and see on top view of poster)" />
+
+    <Button
+        android:id="@+id/buttonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/shape"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/shape"
+        android:text="Submit" />
+</RelativeLayout>

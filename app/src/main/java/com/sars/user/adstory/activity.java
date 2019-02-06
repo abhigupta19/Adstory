@@ -1,0 +1,17 @@
+package com.sars.user.adstory;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+public class activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_activity);
+        //Intent iana = getIntent();
+        //String title = iana.getStringExtra("title");
+        //TextView textView7 = (TextView) findViewById(R.id.textView7);
+        //textView7.setText("hii");
+    }
+}
